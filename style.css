@@ -1,0 +1,354 @@
+*{
+  padding-top: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  }
+  header{
+  background-color: var(--bgDark);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+  }
+  header nav .left a{
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all .2s ease;
+ padding-top: 55px; 
+  }
+
+  header nav .left a:hover{
+  color: var(--primary);
+  }
+  header nav {
+  padding: 2rem 0;
+  }
+  header nav .logo{
+  margin-right: 3rem;
+  }
+
+  :root{
+      --primary: rgb(195, 223, 226);
+      --bgDark: rgb(12, 12, 12);
+      --white: rgb(250, 250, 250);
+      --secondary: rgb(0, 59, 50);
+      --bgLight: rgb(190, 181, 181);
+     
+      }
+  body{
+      font-family:  'Forum', cursive; background-color: var( --bgLight);
+      }
+      .container{
+      max-width: 1152px;
+      padding: 0 15px;
+      margin: 0 auto; 
+      }
+      .hero{
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      }
+      .hero .left img{
+      width: 400px;
+      }
+      .hero .right {
+      color: var(--white);
+      margin-top: 15rem;
+      }
+      .hero .right h6{
+      font-size: 1.6rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      }
+      .hero .right h1{
+      font-size: 4rem;
+      font-weight: 100;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      }
+      .hero .right h1 span{
+      color: var(--primary);
+      }
+      .hero .right p{
+      line-height: 1.9;
+      margin-bottom: 2rem;
+      }
+
+      .flex{
+          display: flex;
+          }
+          .items-centre{
+          align-items: center;
+          }
+          .justify-between{
+          justify-content: space-between;
+          }
+          .justify-center{
+          justify-content: center;
+          }
+          .justify-right{
+          justify-content: right;
+          }
+          .btn{
+          padding: 0.6rem 2rem;
+          font-size: 1rem;
+          font-weight: 600;
+          border: 2px solid transparent;
+          outline: none;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: all .2s ease;
+          }
+          .btn-primary{
+          background-color: var(--primary);
+          color: var(--secondary);
+          margin-top: -15rem; font-family:  'Forum', cursive;
+          }
+          .btn-primary:hover{
+          background: transparent;
+          border-color: var(--primary);
+          color: var(--primary); font-family:  'Forum', cursive;
+          }
+          .flex-1{
+          flex: 1;
+          }
+          .btn-secondary{
+          background: transparent;
+          color: var(--primary);
+          border-color: var(--primary);
+          padding-bottom: 0%;
+          }
+          .btn-secondary:hover{
+          background: var(--primary);
+          color: var(--secondary);
+          }
+          @import 'utilities.css';
+
+
+       
+          
+
+          .img-wrapper {  
+            width: 400px;
+            height: 400px;
+            overflow: hidden; margin-left: auto;
+            
+            justify-content: center;
+          }
+          .img-wrapper1{  
+            width: 400px;
+            height: 600px;
+            overflow: hidden; margin-left: auto;
+            
+            justify-content: center;
+          }
+
+          .inner-img {
+            transition: 0.3s;
+          }
+          
+          .inner-img:hover {
+            transform: scale(1.1);
+          }
+          
+          /* Other styling elements, that are not necessary for the example */
+          
+          .img-wrapper {
+            display: inline-block;
+            box-sizing: border-box;
+           
+          }
+        .text{
+          text-align: center;
+          font-weight: bold;
+          font-size: 50px;
+        }
+
+
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+        * {
+          font-family: Roboto;
+        }
+        
+        section {
+          width: 100%;
+          display: inline-block;
+          background: #ccc;
+          height: 60vh;
+          text-align: center;
+          font-size: 22px;
+          font-weight: 700;
+          text-decoration: underline;
+        }
+        
+        .footer-distributed {
+          background-color:var( --bgDark);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-sizing: border-box;
+          width: 100%;
+          text-align: left;
+          font: normal 16px sans-serif;
+          padding: 45px 50px;font-family:  'Forum', cursive;
+        }
+        
+        .footer-distributed .footer-left p {
+          color: #8f9296;
+          font-size: 14px;
+          margin: 0;
+        }
+        /* Footer links */
+        
+        .footer-distributed p.footer-links {
+          font-size: 18px;
+          font-weight: bold;
+          color: #ffffff;
+          margin: 0 0 10px;
+          padding: 0;
+          transition: ease .25s;
+        }
+        
+        .footer-distributed p.footer-links a {
+          display: inline-block;
+          line-height: 1.8;
+          text-decoration: none;
+          color: inherit;
+          transition: ease .25s;
+        }
+        
+        .footer-distributed .footer-links a:before {
+          content: "·";
+          font-size: 20px;
+          left: 0;
+          color: #fff;font-family:  'Forum', cursive;
+          display: inline-block;
+          padding-right: 5px;
+        }
+        
+        .footer-distributed .footer-links .link-1:before {
+          content: none;font-family:  'Forum', cursive;
+        }
+        
+        .footer-distributed .footer-right {
+          float: right;
+          margin-top: 6px;
+          max-width: 180px;font-family:  'Forum', cursive;
+        }
+        
+        .footer-distributed .footer-right a {
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          background-color: var( --bgLight);
+          border-radius: 2px;
+          font-size: 20px;
+          color: #ffffff;
+          text-align: center;
+          line-height: 35px;
+          margin-left: 3px;
+          transition:all .25s;font-family:  'Forum', cursive;
+        }
+        
+        .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+        
+        .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+        
+        /* Media Queries */
+        
+        @media (max-width: 600px) {
+          .footer-distributed .footer-left, .footer-distributed .footer-right {
+            text-align: center;
+          }
+          .footer-distributed .footer-right {
+            float: none;
+            margin: 0 auto 20px;
+          }
+          .footer-distributed .footer-left p.footer-links {
+            line-height: 1.8;
+          }
+        }
+
+
+      
+  
+  
+      .slider{
+          position: relative;
+          max-width: 800px;
+          overflow: hidden;
+          margin: 50px 0 100px  50px;
+          margin-left: 400px;
+      }
+      
+      .slider__line{
+          background-color: black;
+          display: flex;
+          align-items: center;
+          transition: all 1s;
+      }
+      
+      .slider__btn-prev{
+          position: absolute;
+          left: 1%;
+          top: 50%;
+          transform: translateY(-50%) rotate(90deg);
+          background-color: transparent;
+          border: none;
+      }
+      
+      .slider__btn-next{
+          position: absolute;
+          right: 2%;
+          top: 50%;
+          transform: translateY(-50%) rotate(90deg);
+          background-color: transparent;
+          border: none;
+      }
+  
+      .slider__wrapper{
+          display: flex;
+          column-gap: 10px;
+          position: absolute;
+          bottom: 5%;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  
+      .slider__dot{
+          width: 16px;
+          height: 16px;
+          border: 1px solid #524336;
+      }
+  
+      .slider__dot:hover {
+          background-color:  var(--primary);;
+      }
+  
+      .active-dot {
+          background-color: var(--primary);;
+      }
+  
+      .slider__btn-next img, .slider__btn-prev img {
+          width: 50px;
+      }
+  
+      @media (max-width: 850px) {
+  
+          .slider__btn-next img, .slider__btn-prev img {
+              width: calc(20px + (50 - 20) * ((100vw - 320px) / (850 - 320)));
+  
+              /* 50 - макс. ширина, которая нам нужна;
+              20, 20px - мин. ширина, которая нам нужна;
+              100vw - полная ширина экрана;
+              320, 320px - мин. разрешение до которого будет уменьш. наше свойство;
+              850 - разрешение экрана, с которого начинает ужиматься наш slider; */
+          }
+  
+          .slider__dot {
+              width: calc(10px + (16 - 10) * ((100vw - 320px) / (850 - 320)));
+              height: calc(10px + (16 - 10) * ((100vw - 320px) / (850 - 320)));
+          }
+  
+          .slider__wrapper{
+              column-gap: calc(5px + (10 - 5) * ((100vw - 320px) / (850 - 320)));
+          }
+      }
